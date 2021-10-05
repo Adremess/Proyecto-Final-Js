@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search_bar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(241, 220, 97, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  outline: none;
+  height: 27px;
+  width: 170px;
+}
+
+.searchButton {
+  width: fit-content;
+  padding: 2px;
+  height: 27px;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.filter {
+  border-right: solid 1px black;
+  padding: 2%;
+  height: 100%;
+}
+
+.filter h3 {
+  margin-bottom: 50px;
+}
+
+.filtro_shipp {
+  margin-bottom: 10px;
+}
+
+.filtro_shipp label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.filtro_price label {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  background-color: rgba(207, 207, 206, 0.3);
+}
+
+.items-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: 1px solid rgba(207, 207, 206, .7);
+  background-color: rgba(245, 245, 236, .8);
+  padding: 10px;
+}
+
+.itemsDiv {
+  border: 1px solid grey;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-detail {
+  display: flex;
+}
+
+.item_img {
+  width: 20%;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.item_img img {
+  height: 100%;
+  width: 100%;
+}
+
+.item_cesta {
+  display: flex;
+  height: 100%;
+  width: 25%;
+}
+
+.item_carrito {
+  height: 53px;
+  width: 200px;
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+  margin: auto auto;
+}
+.item_carrito:hover {
+	background-color:#5cbf2a;
+}
+.item_carrito:active {
+	position:relative;
+	top:1px;
+}
+
+.carrito_temp {
+  height: fit-content;
+  width: 25%;
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 3%;
+  position: fixed;
+  background-color: rgba(241, 231, 97, 0.7);
+}
+
+.shopCart {
+  width: 35%;
+}
+
+.total_cart {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: right;
+  background-color: rgba(241, 220, 97, 0.7);
+}
+
+.buy_carrito {
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  margin: 20px 0 0 27%;
+  display: inline-block;
+}
+
+.compra {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20%;
+  font-size: 2.3rem;
+}
